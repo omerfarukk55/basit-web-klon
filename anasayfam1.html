@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <charset="utf-8"></charset>
+   <meta name="viewport" content="width=device-width, initial-1">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+   <title>e-Devlet Kapısı</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link rel="stylesheet" href="anasayfa1.css">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+</head>
+<body>
+   
+    <div class="page">
+      <div class="linear-gradiant"></div>
+     <header class="headersection">
+        <img src="./img/e-devlet-logo.svg"alt="e-devlett" style="width:150px;height:46px;">
+        <div class="headerwriting">Kimlik Dogrulama Sistemi</div>
+        
+     </header>
+    
+     <main class="menu">
+       <dl>
+        <dt>Giriş Yapılacak Adres</dt>
+        <dd><span title="www.turkiye.gov.tr">www.turkiye.gov.tr</span></dd>
+        <dt>Giriş yapılacak uygulama</dt>
+        <dd><span title="e-devlet Kapısı">e-devlet Kapısı</span></dd>
+       </dl>
+       <img src="./img/e-devlet.png" alt="2.e-devlet">
+       <div class="flewrow">
+          <nav class="navbar"style="cursor: pointer;text-shadow: rgb(0 0 0 / 1%) 0 0 1px;color: #666b6e;">
+            <div class="password" style="font-size:14px;font: weight 400px; width:141px;position:relative;"><img src="./img/passaport.png" alt="" style="width:30px; height: 30px;position:absolute;left:10px;top:10px;"><br><br><span>E-Devlet Şifresi</span></div>
+            <div class="mobil-Signature" style="font-size:14px;font: weight 400px;width: 117px;;position: relative;"><img src="./img/mobil imza.png" alt=""style="position:relative;right:35px;top:10px;" ><br><br><span style="position: relative;top: -40px;left: 18px;">Mobil İmza</span></div>
+            <div class="e-Signature" style="font-size:14px;width:90px;"><img src="./img/e-imza.png" alt=""style="width:30px; heigth: 30px;position:relative;left:0px;top:10px;"><span>e-İmza</span></div>
+            <div class="id-Cart" style="font-size:14px;font: weight 400px;width:141px;"><img src="./img/tc-kimlik.png" alt=""style="width:30px; heigth: 30px;position:relative;left:-4px;top:15px;"><span style="position:relative;top:10px;">T.C.Kimlik Kartı</span></div>
+            <div class="onlineBanking" style="font-size:15px;font: weight 400px;width:168px;"><img src="./img/internet bankacılıgı.png" alt=""style="width:30px; heigth: 30px;position:relative;left:0px;top:15px;"><span style="position:relative;top:10px; font-size:14px;">İnternet Bankacılığı</span></div>
+          </nav>
+          <section class="formsection">
+            <div class="baslık">T.C. Kimlik Numaranızı ve e-Devlet Şifrenizi kullanarak kimliğiniz doğrulandıktan sonra işleminize kaldığınız yerden devam edebilirsiniz <img src="./img/kitap1.png" alt="" style="width:20px; heigth:20px;position: relative;top: 5px;"><span style="color:rgb(58,137,180)">e-Devlet Şifresi Nedir, Nasıl Alınır?</span></div>
+          
+          <form id="form" >
+            <div class="tcKimlik">
+                 <label for="tc" style="position: relative;top: -30px;"><span style="color:rgb(58,137,180)">* </span  >T.C. Kimlik No</label>
+                 <div class="inputbuyuk"style="display:inline-block;"><input id="tc"></input><span style="color:rgb(58,137,180);display:inline-block;cursor:pointer;"><img src="./img/klavye.png" alt="" style="padding-left: 6.3px;padding-right:3px;cursor:pointer;">sanal klavye <img src="./goz.png" alt="" style="padding-left: 6.3px;padding-top: 4px;padding-right:3px;position: relative;
+                  top: 4px;cursor:pointer;" >yazarken gizle</span></div>
+            </div>
+            <div class="sifreler">
+                 <label  for="sıfre" style="position:relative;top:-70px;display:inline-block;"><span style="color:rgb(58,137,180)">* </span>e-Devlet Şifresi</label><div class="inputbuyuk2"style="display:inline-block;"><input id="sıfre"></input><span style="color:rgb(58,137,180);display:inline-block;cursor:pointer;"><img src="./img/klavye.png" alt="" style="padding-left: 6.3px;padding-right:3px;cursor:pointer;">sanal klavye <img src="./img/goz.png" alt="" style="padding-left: 6.3px;margin-top: 4px;cursor:pointer;position: relative;
+                  top: 4px;" >şifremi unuttum</span>
+                <div  class="sifreAltı"style="padding-top: 5px;">
+                  * e-Devlet <span style="color:rgb(58,137,180);cursor:pointer;"><img src="./img/kitap2.png" alt="" style="height:17px;   position: relative;
+                    top: 5px;">şifrenizi unutmanız durumunda</span> doğruladığınız cep telefonunuzdan yenileme işlemi yapabilirsiniz.
+                </div>
+              </div>
+              <div class="submitbutton">
+                <button   class="buton1"style="
+                margin: 3.125px 12.125px 3.125px  0px;cursor:pointer;
+            "><img src="./img/arrow_back_ios_FILL0_wght400_GRAD0_opsz20.png" id="sagok">İptal Et</button> 
+                <button   class="buton2"style="
+                margin: 3.125px 12.125px 3.125px  0px;cursor:pointer;
+            "><img src="./img/arrow_forward_ios_FILL0_wght400_GRAD0_opsz20.png" id="solok"> Giriş Yap</button>
+              </div>
+            </div>
+          </form>
+        </section>
+       </div>
+     </main>
+     <footer class="footer">
+       <span style="position:relative;  font-weight: 200; color:rgba(0, 0, 0, 0.7);bottom:10px">© 2022, Ankara - Tüm Hakları Saklıdır</span>
+       <ul>
+        <li><a href="#" >Gizlilik ve Güvenlik</a>
+        </li>
+        <li>
+          <a href="#" > Hızlı Çözüm Merkezi</a>
+        </li>
+       </ul>
+       </div>
+       
+     </footer>
+</div>
+</div>
+</body>
